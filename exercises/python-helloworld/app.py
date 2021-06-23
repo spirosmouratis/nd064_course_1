@@ -38,5 +38,5 @@ def hello():
 if __name__ == "__main__":
 
     ## stream logs to app.log file
-    logging.basicConfig(filename='/app.log',level=logging.DEBUG)
+    logging.basicConfig(filename='app.log',level=logging.DEBUG)
     app.run(host='0.0.0.0')
